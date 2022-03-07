@@ -1,0 +1,30 @@
+body{
+    margin:auto;
+}
+.submit{
+background-color:green;
+color: white;
+font-style: italic;
+}
+label{
+    text-justify: left;
+   
+}
+.container{
+    margin:auto;
+    padding:35px;
+    background-color: aqua;
+    width:15%;
+    border: 1px solid;
+}
+.submenu{
+    padding:15px;
+    border:1px solid;
+}
+tr:nth-child(odd) {
+    background-color:bisque;
+    }
+    
+    tr:nth-child(even) {
+    background-color:burlywood;
+    }

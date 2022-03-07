@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+<div style="display:flex; width:90%; margin:auto; font-size:25px;">
+  <div style="flex:1" class="container" >
+        <h1><i>DOM</i></h1>
+    <form  onsubmit="myFunction(); return false;"; id="formData">
+        
+        <label for="Firstname"><b>Firstname</b></label><br>
+        <input type="text" name="firstname" placeholder="Enter your firstname" id="fnam" ><br>
+        <label for="Lastname"><b>Lastname</b></label><br>
+        <input type="text" name="lastname" placeholder="Enter your lastname" id="lnam" ><br>
+        <label for="Address"><b>Address</b></label><br>
+        <input type="Address" name="street" placeholder="Enter street" id="add"  ><br>
+        <label for="Pincode"><b>Pincode</b></label><br>
+        <input type="Pincode" name="pincode" placeholder="Enter Pincode" id="pin"  ><br>
+        <label for="State"><b>State</b></label><br>
+        <input type="State" name="state" placeholder="Enter state" id="stat"  ><br>
+        <label for="Country"><b>Country</b></label><br>
+        <input type="Country" name="country" placeholder="Enter country" id="country"  ><br>
+        <label for="gender-select"><b>Gender :</b></label><br>
+            <select name="gender-select" id="gender-select">
+                <option value="gender">--Please choose an option--</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>    
+            </select>
+            <p class="Food"><b>Choice of food(must choose at least 2 out of 5 options):</b></p>
+                <div class="options">
+                    <input type="checkbox" id="food1" value="Cutlet" name="Cutlet">
+                    <label for="Cutlet">Cutlet</label>
+                      <input type="checkbox" id="food2" value="Dosa" name="Dosa">
+                    <label for="Dosa">Dosa</label>
+                      <input type="checkbox" id="food3" value="Parota" name="Parota">
+                    <label for="Parota">Parota</label>          
+                      <input type="checkbox" id="food4" value="Briyani name="briyani">
+                    <label for="Briyani">Briyani</label>
+                      <input type="checkbox" id="food5" value="FriedRice" name="FriedRice">
+                    <label for="FriedRice">FriedRice</label>
+                    </div><br>
+        <input type="submit" class="submit" value="Submit" >
+    
+    </form>
+    </div>
+    <div class="submenu">
+    <table border="1" id="tab">
+        <h2>Database</h2>
+        <tr>
+            <td><b>Firstname</b></td>
+            <td><b>Lastname</b></td>
+            <td><b>Address</b></td>
+            <td><b>Pincode</b></td>
+            <td><b>State</b></td>
+            <td><b>Country</b></td>
+            <td><b>Gender</b></td>
+             <td><b>Choice of food</b></td>
+            </tr>
+   
+        </table>
+        </div>
+        </div>
+        <link rel="stylesheet" href="sample.css">
+        <script src="script.js"></script>
+</body>
+</html>
